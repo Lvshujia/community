@@ -1,0 +1,8 @@
+com\nowcoder\community\TransactionTests.class
+com\nowcoder\community\MailTests.class
+com\nowcoder\community\LoggerTests.class
+com\nowcoder\community\MapperTests.class
+com\nowcoder\community\RedisTests$1.class
+com\nowcoder\community\SensitiveTests.class
+com\nowcoder\community\CommunityApplicationTests.class
+com\nowcoder\community\RedisTests.class

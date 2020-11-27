@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.nowcoder.community.MapperTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 3.959 s <<< FAILURE! - in com.nowcoder.community.MapperTests
+testSelectLetters(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
+testSelectPosts(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
+updateUser(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
+testInsertUser(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
+testSelectLoginTicket(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
+testInsertLoginTicket(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
+testSelectUser(com.nowcoder.community.MapperTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+

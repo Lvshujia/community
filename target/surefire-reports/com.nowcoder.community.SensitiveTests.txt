@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.nowcoder.community.SensitiveTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.542 s <<< FAILURE! - in com.nowcoder.community.SensitiveTests
+testSensitiveFilter(com.nowcoder.community.SensitiveTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'community.path.upload' in value "${community.path.upload}"
+
